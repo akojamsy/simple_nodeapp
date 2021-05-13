@@ -14,7 +14,8 @@ const conn = mongoose.connection
 app.use(express.json())
 app.use('/users', usersRouter)
 
+
 app.listen(3000, () => {
-    console.log("Database is connected successfully!..")
+    console.log("Database is connected successfully. Please smile ):!.." )
 })
 
